@@ -6,9 +6,9 @@ public abstract class DesenhoAbstrato {
 	
 	public void identificar() {
 		System.out.println("\n");
-		System.out.println("===================================");
+		System.out.println("*===================================*");
 		System.out.println(getNome());
-		System.out.println("===================================");
+		System.out.println("*===================================*");
 		System.out.println("\n");
 		
 	}
