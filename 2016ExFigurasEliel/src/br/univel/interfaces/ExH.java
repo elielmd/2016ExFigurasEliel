@@ -2,7 +2,7 @@ package br.univel.interfaces;
 
 import br.univel.classeabstrata.DesenhoAbstrato;
 
-public class ExG extends DesenhoAbstrato implements Desenho {
+public class ExH extends DesenhoAbstrato implements Desenho {
 
 	public static int ALTURA = 8;
 
@@ -10,7 +10,7 @@ public class ExG extends DesenhoAbstrato implements Desenho {
 		identificar();
 		for (int lin = 0;lin<ALTURA;lin++) {
 			for (int col = 0;col<ALTURA;col++) {
-				if ((lin + (ALTURA - 1) == (ALTURA - 1)) || (lin == (ALTURA - 1) || (((col + lin) == (ALTURA - 1))))) {
+				if ((lin + (ALTURA - 1) == (ALTURA - 1)) || (lin == (ALTURA - 1) || (((col + lin) == (ALTURA - 1) || (lin == col))))) {
 					System.out.print("#");					
 				} else {
 					System.out.print(" ");
@@ -24,6 +24,6 @@ public class ExG extends DesenhoAbstrato implements Desenho {
 	@Override
 	protected String getNome() {
 		// TODO Auto-generated method stub
-		return "G";
+		return "H";
 	}
 }
