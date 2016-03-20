@@ -20,6 +20,7 @@ public class Principal {
 		lista.add(new ExI());
 		lista.add(new ExJ());
 		lista.add(new ExK());
+		lista.add(new ExL());
 		
 		for (Desenho d : lista) {
 			d.desenhar();

@@ -4,7 +4,7 @@ import br.univel.classeabstrata.DesenhoAbstrato;
 
 public class ExK extends DesenhoAbstrato implements Desenho {
 
-	public static int ALTURA = 12;
+	public static int ALTURA = 13;
 
 	public void desenhar() {
 		identificar();
