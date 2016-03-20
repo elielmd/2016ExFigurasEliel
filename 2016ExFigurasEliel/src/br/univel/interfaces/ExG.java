@@ -15,8 +15,8 @@ public class ExG extends DesenhoAbstrato implements Desenho {
 				} else {
 					System.out.print(" ");
 				}
-			if (col == (ALTURA - 1))
-				System.out.println();			
+				if (col == (ALTURA - 1))
+					System.out.println();			
 			}
 		}
 	}
