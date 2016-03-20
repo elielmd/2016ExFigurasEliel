@@ -22,7 +22,9 @@ public class Principal {
 		lista.add(new ExK());
 		lista.add(new ExL());
 		lista.add(new ExM());
-		lista.add(new ExN());
+		//lista.add(new ExN());
+		//lista.add(new ExO());
+		lista.add(new ExP());
 		
 		for (Desenho d : lista) {
 			d.desenhar();
